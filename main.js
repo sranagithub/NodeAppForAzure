@@ -68,6 +68,6 @@ module.exports = app;
 
 
 //start server
-app.listen(3000,function(){
+app.listen(process.env.PORT || 1337,function(){
 	console.log('Server Started');
 });
